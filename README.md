@@ -51,10 +51,9 @@ Stripe account (for payment integration)
 
 Installation
 # Clone the repository
-git clone https://github.com/your-username/vendoris.git
-
+git clone https://github.com/Faithesther20/Multivendor_Eccommerce_Store.git
 # Backend setup
-cd vendoris
+cd Multivendor_Eccommerce_Store
 composer install
 cp .env.example .env
 php artisan key:generate
