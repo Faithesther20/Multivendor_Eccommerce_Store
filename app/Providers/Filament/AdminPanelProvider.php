@@ -51,6 +51,7 @@ class AdminPanelProvider extends PanelProvider
                 SubstituteBindings::class,
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
+                // this is were they assigned the roles for the admin pannel access
                 'auth',
                 sprintf('role:%s|%s',
                  RolesEnum::Admin->value, 
