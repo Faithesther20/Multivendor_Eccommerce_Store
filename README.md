@@ -1,10 +1,10 @@
-🚀 Vendoris – Multi-Vendor E-Commerce Marketplace
+# 🚀 Vendoris – Multi-Vendor E-Commerce Marketplace
 
 Vendoris is a full-stack multi-vendor e-commerce marketplace built with Laravel, Inertia.js, React (TypeScript), TailwindCSS, DaisyUI, FilamentPHP, and Stripe for secure online payments.
 
 This project demonstrates my ability to design and develop modern, scalable full-stack applications where Laravel + Inertia.js power server-driven pages with the reactivity of a single-page app.
 
-✨ Features
+# ✨ Features
 
 🔑 Role-based Access – Admin, Vendors, and Customers with secure authentication & authorization.
 
@@ -20,7 +20,7 @@ This project demonstrates my ability to design and develop modern, scalable full
 
 🌍 Scalable Full-Stack Setup – Laravel + Inertia.js with React/TypeScript (server-rendered pages with client-like reactivity; no separate REST API required).
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Backend / Server: Laravel 12
 
@@ -34,7 +34,7 @@ Payments: Stripe
 
 Routing / UX: Inertia.js (server controllers return Inertia responses to React pages)
 
-🚦 Getting Started
+# 🚦 Getting Started
 Prerequisites
 
 PHP 8.2+
@@ -47,11 +47,11 @@ MySQL or PostgreSQL
 
 Stripe account (for payment integration)
 
-Installation
-# Clone the repository
+## Installation
+### Clone the repository
 git clone https://github.com/Faithesther20/Multivendor_Eccommerce_Store.git
 
-# Backend setup
+#### Backend setup
 cd Multivendor_Eccommerce_Store
 composer install
 cp .env.example .env
@@ -59,13 +59,13 @@ php artisan key:generate
 php artisan migrate --seed
 php artisan serve
 
-# Frontend/setup 
-# If your frontend assets live in the same repo:
+#### Frontend/setup 
+
 npm install
 npm run dev
 
 
-🎯 Why This Project Matters
+# 🎯 Why This Project Matters
 
 Vendoris reflects my expertise in:
 
@@ -78,18 +78,18 @@ Integrating payment gateways for production-ready use cases
 Delivering modern UI/UX with developer-friendly stacks
 
 
-🙋 About Me
+# 🙋 About Me
 
 I’m Esther Iyege, a full-stack developer passionate about building impactful applications.
 
 💻 Skilled in Laravel, Inertia.js, React, TypeScript, and full-stack systems
 
-🚀 Entrepreneurial experience through Digisoft I.T. (tech solutions & skills empowerment)
+🚀 Vision Director experience through Digisoft I.T. (tech solutions & skills empowerment)
 
-✝️ Founder of ChristTech, exploring tech-driven solutions for church and community needs
+✝️ Faith-driven Innovator ChristTech, exploring tech-driven solutions for church and community needs
 
 
-🤝 Connect With Me
+# 🤝 Connect With Me
 
 💼 LinkedIn:[ Esther Iyege ](https://www.linkedin.com/in/esther-iyege-7ba798238/)
 
