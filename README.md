@@ -1,8 +1,8 @@
 🚀 Vendoris – Multi-Vendor E-Commerce Marketplace
 
-Vendoris is a full-stack multi-vendor e-commerce marketplace built with Laravel, React (TypeScript), Inertia.js, TailwindCSS, DaisyUI, FilamentPHP, and Stripe for secure online payments.
+Vendoris is a full-stack multi-vendor e-commerce marketplace built with Laravel, Inertia.js, React (TypeScript), TailwindCSS, DaisyUI, FilamentPHP, and Stripe for secure online payments.
 
-This project demonstrates my ability to design and develop modern, scalable full-stack applications from backend to frontend.
+This project demonstrates my ability to design and develop modern, scalable full-stack applications where Laravel + Inertia.js power server-driven pages with the reactivity of a single-page app.
 
 ✨ Features
 
@@ -18,23 +18,21 @@ This project demonstrates my ability to design and develop modern, scalable full
 
 📦 Order & Inventory Management – Complete shopping workflow.
 
-🌍 Scalable Full-Stack Setup – Laravel API backend + React/TypeScript frontend.
+🌍 Scalable Full-Stack Setup – Laravel + Inertia.js with React/TypeScript (server-rendered pages with client-like reactivity; no separate REST API required).
 
 🛠️ Tech Stack
 
-Backend: Laravel 11
+Backend / Server: Laravel 12
 
-Frontend: React
- + TypeScript
+Frontend: React + TypeScript via Inertia.js
 
-UI Styling: TailwindCSS
- + DaisyUI
+UI Styling: TailwindCSS + DaisyUI
 
 Admin Panel: FilamentPHP
 
 Payments: Stripe
 
-State & Navigation: Inertia.js
+Routing / UX: Inertia.js (server controllers return Inertia responses to React pages)
 
 🚦 Getting Started
 Prerequisites
@@ -52,6 +50,7 @@ Stripe account (for payment integration)
 Installation
 # Clone the repository
 git clone https://github.com/Faithesther20/Multivendor_Eccommerce_Store.git
+
 # Backend setup
 cd Multivendor_Eccommerce_Store
 composer install
@@ -60,8 +59,8 @@ php artisan key:generate
 php artisan migrate --seed
 php artisan serve
 
-# Frontend setup
-in another terminal
+# Frontend/setup 
+# If your frontend assets live in the same repo:
 npm install
 npm run dev
 
@@ -72,22 +71,22 @@ Vendoris reflects my expertise in:
 
 Building complex, role-based systems
 
-Designing scalable full-stack architectures
+Designing scalable, maintainable full-stack architectures
 
-Integrating payment gateways for real-world use cases
+Integrating payment gateways for production-ready use cases
 
-Delivering modern UI/UX using today’s best frontend tools
+Delivering modern UI/UX with developer-friendly stacks
 
 
 🙋 About Me
 
-I’m Esther Iyege, a full-stack developer passionate about building innovative applications.
+I’m Esther Iyege, a full-stack developer passionate about building impactful applications.
 
-💻 Skilled in Laravel, React, TypeScript, and scalable backend/frontend systems
+💻 Skilled in Laravel, Inertia.js, React, TypeScript, and full-stack systems
 
 🚀 Entrepreneurial experience through Digisoft I.T. (tech solutions & skills empowerment)
 
-✝️ Founder of ChristTech, where I explore technology-driven solutions for church and community needs
+✝️ Founder of ChristTech, exploring tech-driven solutions for church and community needs
 
 
 🤝 Connect With Me
